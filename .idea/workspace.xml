@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e9aee-8144-4725-bc5a-e1f80e76a2de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/imgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/imgs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/easterEgg.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/easterEgg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles4.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles4.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +31,7 @@
           <entry key="css" value="9" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="9" />
-          <entry key="js" value="8" />
+          <entry key="js" value="12" />
           <entry key="json" value="1" />
           <entry key="md" value="7" />
         </counts>
@@ -38,7 +41,7 @@
           <entry key="CSS" value="9" />
           <entry key="HTML" value="9" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="8" />
+          <entry key="JavaScript" value="12" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -47,7 +50,7 @@
         <counts>
           <entry key="css" value="18" />
           <entry key="html" value="89" />
-          <entry key="js" value="27" />
+          <entry key="js" value="29" />
           <entry key="md" value="684" />
         </counts>
       </usages-collector>
@@ -55,7 +58,7 @@
         <counts>
           <entry key="CSS" value="18" />
           <entry key="HTML" value="89" />
-          <entry key="JavaScript" value="27" />
+          <entry key="JavaScript" value="29" />
           <entry key="Markdown" value="678" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
@@ -70,20 +73,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/styles2.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/styles3.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="214">
+              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#206#237#0" expanded="true" />
@@ -94,8 +87,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/utils.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/insetStyleVariable.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/easterEgg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/styles4.css">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -125,22 +146,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/imgs.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/styles1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/styles0.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -152,6 +159,8 @@
       <find>Teddy$</find>
       <find>AfterShip</find>
       <find>transition</find>
+      <find>找找其他方法吧</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>introMineTitle</replace>
@@ -172,14 +181,16 @@
         <option value="$PROJECT_DIR$/views/work0.md" />
         <option value="$PROJECT_DIR$/views/container.html" />
         <option value="$PROJECT_DIR$/views/introMineTitle.html" />
-        <option value="$PROJECT_DIR$/public/js/index.js" />
         <option value="$PROJECT_DIR$/styles/styles1.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/intro1.md" />
         <option value="$PROJECT_DIR$/styles/styles5.css" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/imgs.js" />
+        <option value="$PROJECT_DIR$/styles/styles4.css" />
+        <option value="$PROJECT_DIR$/public/js/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/lib/easterEgg.js" />
       </list>
     </option>
   </component>
@@ -232,22 +243,6 @@
             <path>
               <item name="company-intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="company-intro" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="company-intro" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="company-intro" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="company-intro" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -294,12 +289,12 @@
       <updated>1557369472247</updated>
       <workItem from="1557369473980" duration="478000" />
       <workItem from="1557370064217" duration="9401000" />
-      <workItem from="1557393361227" duration="4127000" />
+      <workItem from="1557393361227" duration="4347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14006000" />
+    <option name="totallyTimeSpent" value="14226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -395,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="148" column="3" selection-start-line="148" selection-start-column="3" selection-end-line="148" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/prestyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
@@ -459,21 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/styles4.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#206#237#0" expanded="true" />
-            <element signature="e#363#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -490,6 +463,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/imgs.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/insetStyleVariable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/styles4.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#206#237#0" expanded="true" />
+            <element signature="e#363#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/easterEgg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

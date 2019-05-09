@@ -44,7 +44,6 @@ const introMineTitle = template(introMineTitleRaw, {teddyImg});
 
 let styleText = [0, 1, 2, 3, 4, 5, 6].map(function (i) {
 	const txt = require('./styles/styles' + i + '.css');
-	console.log(txt)
 	return insetStyleVariable(txt);
 });
 

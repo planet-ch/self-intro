@@ -31,7 +31,6 @@
       $reverse.style.display = 'block'
 
       makeRandom()
-      console.log(IDS)
       let i = 0,
         l = IDS.length;
       let snapAction = function() {
