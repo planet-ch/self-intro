@@ -114,6 +114,7 @@ pre {
 	width: 138px;
 	height: 136px;
 	display: inline-block;
+	background-size: cover;
 }
 
 .img-tedy + .title{
