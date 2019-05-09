@@ -1,0 +1,168 @@
+/* I'm cheating a lot 🤪 */
+
+.af {
+	/* height will controlled by script */
+	margin: 0 auto;
+	max-width:1200px;
+	font-size: 14px;
+	letter-spacing: initial;
+    line-height: 1.444;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+	padding: 12px '$bodyPaddingLeftRig' 20px;
+	box-sizing: border-box;
+}
+.af * {
+	box-sizing: border-box;
+}
+/* reset */
+.af p, .af ul{
+	font-size: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+}
+
+/* be ware of polluted */
+pre {
+	overflow: auto;
+	max-height: 90%;
+	width: 100%;
+	border-radius: 3px;
+	/* Prevents bad clipping in Chrome */
+	white-space: pre-wrap;
+	outline: 0;
+	-webkit-overflow-scrolling: touch;
+}
+.af pre{
+	margin:0;
+}
+
+/* reset container background */
+#container{
+	background:#fff;
+	overflow-y: hidden;
+}
+
+#content {
+	position: relative;
+}
+
+#header {
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	left: 0;
+	right: 0;
+	padding: 5px 12px;
+	z-index: 10;
+	background: rgba(0, 0, 0, .3);
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+.af a:after {
+	content: '';
+	margin: 0 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-color: inherit;
+}
+
+.af a:last-of-type:after {
+	border: none;
+}
+
+.md {
+	font-family: -apple-system, Segoe UI, Helvetica, Arial
+}
+
+.md li {
+	margin: 5px 0;
+}
+
+.md h1, .md h2, .md h3 {
+	margin: 20px 0 10px;
+}
+
+.md h4, .md h5, .md h6 {
+	margin: 10px 0 5px;
+}
+
+.md ul, .md p {
+	margin: 8px 0;
+}
+
+.md h1, .md h2 {
+	border-bottom: 1px solid #eaecef;
+	padding-bottom: .2em;
+}
+
+#work-text {
+	z-index: 2;
+	transform: '$workTxtTrans';
+}
+
+#intro-text {
+	width: 100%;
+	transform: translateX(0);
+}
+#intro-text:not(:empty){
+	padding-bottom:35px;
+}
+
+.img-tedy {
+	width: 138px;
+	height: 136px;
+	display: inline-block;
+}
+
+.img-tedy + .title{
+	display: inline-block;
+	padding-left: 12px;
+}
+
+#work-text header {
+	width: 180px;
+	height: 54px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-bottom: 12px;
+}
+
+#work-text .badge {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.badge>img{
+	margin: 8px 5px;
+}
+
+#work-text.flipped {
+	transform: '$workTxtTrans' rotateY(180deg) rotateZ(180deg);
+}
+
+#work-text .md {
+	transform: rotateY(180deg) rotateZ(180deg);
+	margin-top: 20px;/* gap */
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	animation: fadeIn .5s ease;
+}
+
+.terminal-user {
+	color: rgb(91, 104, 117);
+}
+.verticalTop{
+	vertical-align: top;
+}
